@@ -1,0 +1,15 @@
+﻿<Window x:Class="CookBook_Final.Text_View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookBook_Final"
+        mc:Ignorable="d"
+        Title="Text_View"  Height="600" Width="500"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <FlowDocumentReader Name="FlowDocReader" Background="LightGray" Margin="0,0,0,-1"/>
+        <Button Width="100" Height="25" Content="Download" VerticalAlignment="Bottom" HorizontalAlignment="Left" Name="Download" Click="Download_Click" Background="#FF2E6171"/>
+    </Grid>
+</Window>
